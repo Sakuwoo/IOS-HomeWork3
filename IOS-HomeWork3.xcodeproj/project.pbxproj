@@ -13,6 +13,8 @@
 		D77F7D732A2DEE6000FE57B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77F7D712A2DEE6000FE57B4 /* Main.storyboard */; };
 		D77F7D752A2DEE6100FE57B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77F7D742A2DEE6100FE57B4 /* Assets.xcassets */; };
 		D77F7D782A2DEE6100FE57B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77F7D762A2DEE6100FE57B4 /* LaunchScreen.storyboard */; };
+		D77F7D802A2DEEF700FE57B4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77F7D7F2A2DEEF700FE57B4 /* Person.swift */; };
+		D77F7D822A2DEF1300FE57B4 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77F7D812A2DEF1300FE57B4 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D77F7D742A2DEE6100FE57B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D77F7D772A2DEE6100FE57B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D77F7D792A2DEE6100FE57B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77F7D7F2A2DEEF700FE57B4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D77F7D812A2DEF1300FE57B4 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		D77F7D6A2A2DEE6000FE57B4 /* IOS-HomeWork3 */ = {
 			isa = PBXGroup;
 			children = (
+				D77F7D7F2A2DEEF700FE57B4 /* Person.swift */,
 				D77F7D6B2A2DEE6000FE57B4 /* AppDelegate.swift */,
 				D77F7D6D2A2DEE6000FE57B4 /* SceneDelegate.swift */,
 				D77F7D6F2A2DEE6000FE57B4 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				D77F7D742A2DEE6100FE57B4 /* Assets.xcassets */,
 				D77F7D762A2DEE6100FE57B4 /* LaunchScreen.storyboard */,
 				D77F7D792A2DEE6100FE57B4 /* Info.plist */,
+				D77F7D812A2DEF1300FE57B4 /* ContactViewController.swift */,
 			);
 			path = "IOS-HomeWork3";
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				D77F7D702A2DEE6000FE57B4 /* ViewController.swift in Sources */,
 				D77F7D6C2A2DEE6000FE57B4 /* AppDelegate.swift in Sources */,
+				D77F7D802A2DEEF700FE57B4 /* Person.swift in Sources */,
 				D77F7D6E2A2DEE6000FE57B4 /* SceneDelegate.swift in Sources */,
+				D77F7D822A2DEF1300FE57B4 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
